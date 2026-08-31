@@ -1,0 +1,12 @@
+# Copy this file to terraform.tfvars and update rg_name
+# to match an existing Azure Resource Group in your subscription.
+
+rg_name = "your-existing-resource-group"
+
+project = "lab005"
+
+vnet_address_space = ["10.80.0.0/16"]
+
+app_cidr = ["10.80.2.0/24"]
+web_cidr = ["10.80.1.0/24"]
+mgmt_cidr = ["10.80.3.0/24"]
